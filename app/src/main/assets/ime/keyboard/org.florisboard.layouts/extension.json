@@ -43,7 +43,14 @@
         "authors": [ "patrickgold" ],
         "direction": "ltr"
       },
-	  {
+      {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr",
+        "modifier": "org.florisboard.layouts:basti"
+      },
+	    {
         "id": "bengali_bd",
         "label": "বাংলা",
         "authors": [ "iamrasel" ],
@@ -424,6 +431,12 @@
         "direction": "rtl"
       },
       {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr"
+      },
+      {
         "id": "dvorak",
         "label": "Dvorak",
         "authors": [ "patrickgold" ],
@@ -482,6 +495,12 @@
     ],
     "numeric": [
       {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr"
+      },
+      {
         "id": "western_arabic",
         "label": "Western Arabic",
         "authors": [ "patrickgold" ],
@@ -495,6 +514,12 @@
       }
     ],
     "numericAdvanced": [
+      {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr"
+      },
       {
         "id": "western_arabic",
         "label": "Western Arabic",
@@ -515,6 +540,12 @@
       }
     ],
     "numericRow": [
+      {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr"
+      },
       {
         "id": "bengali",
         "label": "Bengali",
@@ -637,6 +668,13 @@
         "modifier": "org.florisboard.layouts:armenian"
       },
       {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr",
+        "modifier": "org.florisboard.layouts:basti"
+      },
+      {
         "id": "cjk",
         "label": "CJK",
         "authors": [ "waelwindows" ],
@@ -695,6 +733,12 @@
         "direction": "ltr"
       },
       {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr"
+      },
+      {
         "id": "cjk",
         "label": "CJK",
         "authors": [ "waelwindows" ],
@@ -708,6 +752,13 @@
       }
     ],
     "symbols2": [
+      {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr",
+        "modifier": "org.florisboard.layouts:basti"
+      },
       {
         "id": "cjk",
         "label": "CJK",
@@ -741,6 +792,12 @@
       }
     ],
     "symbols2Mod": [
+      {
+        "id": "basti",
+        "label": "Basti",
+        "authors": [ "Basti" ],
+        "direction": "ltr"
+      },
       {
         "id": "default",
         "label": "Default",

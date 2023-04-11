@@ -1,0 +1,53 @@
+[
+  [
+    { "code": 128513, "label": "😁" },
+    { "code": 128578, "label": "🙂" },
+    { "code": 128521, "label": "😉" },
+    { "code": 128517, "label": "😅" },
+    { "code": 128518, "label": "😆" },
+    { "code": 128540, "label": "😜" },
+    { "code": 128536, "label": "😘" },
+    { "code": 128525, "label": "😍" },
+    { "code": 129392, "label": "🥰" },
+    { "code": 10084, "label": "❤" }
+  ],
+  [
+    { "code": 128514, "label": "😂" },
+    { "code": 128519, "label": "😇" },
+    { "code": 128579, "label": "🙃" },
+    { "code": 128522, "label": "😊" },
+    { "code": 128567, "label": "😷" },
+    { "code": 129319, "label": "🤧" },
+    { "code": 129326, "label": "🤮" },
+    { "code": 129314, "label": "🤢" },
+    { "code": 129301, "label": "🤕" },
+    { "code": 128565, "label": "😵" }
+  ],
+  [
+    { "code": 128544, "label": "😠" },
+    { "code": 129327, "label": "🤯" },
+    { "code": 129300, "label": "🤔" },
+    { "code": 128530, "label": "😒" },
+    { "code": 129395, "label": "🥳" },
+    { "code":  169, "label": "©", "popup": {
+      "relevant": [
+        { "code":  174, "label": "®" },
+        { "code": 8482, "label": "™" },
+        { "code": 10003, "label": "✓" }
+      ]
+    } },
+    { "code":   94, "label": "^", "popup": {
+      "main": { "code":  176, "label": "°" },
+      "relevant": [
+        { "code":  126, "label": "~" }
+      ]
+    } },
+    { "code": 8594, "label": "→", "popup": {
+      "main": { "code": 8592, "label": "←" },
+      "relevant": [
+        { "code": 8593, "label": "↑" },
+        { "code": 8595, "label": "↓" }
+      ]
+    } }
+  ]
+]

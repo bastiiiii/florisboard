@@ -35,6 +35,7 @@
     { "id": "cs", "authors": [ "stefan-misik" ] },
     { "id": "da", "authors": [ "patrickgold" ] },
     { "id": "de", "authors": [ "patrickgold" ] },
+    { "id": "de-DE-basti", "authors": [ "Basti" ] },
     { "id": "de-DE-neobone", "authors": [ "ostrya" ] },
     { "id": "el", "authors": [ "tsiflimagas" ] },
     { "id": "en", "authors": [ "patrickgold" ] },
@@ -137,6 +138,23 @@
       "popupMapping": "org.florisboard.localization:de",
       "preferred": {
         "characters": "org.florisboard.layouts:swiss_german"
+      }
+    },
+    {
+      "languageTag": "de-DE-basti",
+      "composer": "org.florisboard.composers:appender",
+      "currencySet": "org.florisboard.currencysets:euro",
+      "popupMapping": "org.florisboard.localization:de-DE-basti",
+      "preferred": {
+        "characters": "org.florisboard.layouts:basti",
+        "charactersMod": "org.florisboard.layouts:basti",
+        "numeric": "org.florisboard.layouts:basti",
+        "numericAdvanced": "org.florisboard.layouts:basti",
+        "numericRow": "org.florisboard.layouts:basti",
+        "symbols": "org.florisboard.layouts:basti",
+        "symbolsMod": "org.florisboard.layouts:basti",
+        "symbols2": "org.florisboard.layouts:basti",
+        "symbols2Mod": "org.florisboard.layouts:basti"
       }
     },
     {

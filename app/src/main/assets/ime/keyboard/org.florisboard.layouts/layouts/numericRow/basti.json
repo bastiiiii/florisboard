@@ -1,0 +1,175 @@
+[
+  [
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "code": 33, "label": "!", "type": "numeric", "popup": {
+          "main": { "code": 161, "label": "¡" }
+        }
+      },
+      "default": {
+        "code": 49, "label": "1", "type": "numeric", "popup": {
+          "main": { "code": 185, "label": "¹" },
+          "relevant": [
+            { "code": 8537, "label": "⅙" },
+            { "code": 8528, "label": "⅐" },
+            { "code": 8539, "label": "⅛" },
+            { "code": 8529, "label": "⅑" },
+            { "code": 8530, "label": "⅒" },
+            { "code":  189, "label": "½" },
+            { "code": 8531, "label": "⅓" },
+            { "code":  188, "label": "¼" },
+            { "code": 8533, "label": "⅕" }
+          ]
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": { "code":   34, "label": "\"", "type": "numeric" },
+      "default": {
+        "code": 50, "label": "2", "type": "numeric", "popup": {
+          "main": { "code": 178, "label": "²" },
+          "relevant": [
+            { "code": 8532, "label": "⅔" },
+            { "code": 8534, "label": "⅖" }
+          ]
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "code": 167, "label": "§", "type": "numeric"
+      },
+      "default": {
+        "code": 51, "label": "3", "type": "numeric", "popup": {
+          "main": { "code": 179, "label": "³" },
+          "relevant": [
+            { "code": 8535, "label": "⅗" },
+            { "code":  190, "label": "¾" },
+            { "code": 8540, "label": "⅜" }
+          ]
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "code": 36, "label": "$", "type": "numeric"
+      },
+      "default": {
+        "code": 52, "label": "4", "type": "numeric", "popup": {
+          "main": { "code": 8308, "label": "⁴" },
+          "relevant": [
+            { "code": 8536, "label": "⅘" }
+          ]
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "code": 37, "label": "%", "type": "numeric", "popup": {
+          "main": { "code": 8240, "label": "‰" },
+          "relevant": [
+            { "code": 8453, "label": "℅" }
+          ]
+        }
+      },
+      "default": {
+        "code": 53, "label": "5", "type": "numeric", "popup": {
+          "main": { "code": 8309, "label": "⁵" },
+          "relevant": [
+            { "code": 8538, "label": "⅚" },
+            { "code": 8541, "label": "⅝" }
+          ]
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "code": 38, "label": "&", "type": "numeric"
+      },
+      "default": {
+        "code": 54, "label": "6", "type": "numeric", "popup": {
+          "main": { "code": 8310, "label": "⁶" }
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": { "code": 47, "label": "/", "type": "numeric" },
+      "default": {
+        "code": 55, "label": "7", "type": "numeric", "popup": {
+          "main": { "code": 8311, "label": "⁷" },
+          "relevant": [
+            { "code": 8542, "label": "⅞" }
+          ]
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "$": "layout_direction_selector",
+        "ltr": {
+          "code": 40, "label": "(", "type": "numeric", "popup": {
+            "main": { "code": 60, "label": "<" },
+            "relevant": [
+              { "code":  91, "label": "[" },
+              { "code": 123, "label": "{" }
+            ]
+          }
+        },
+        "rtl": {
+          "code": 41, "label": "(", "type": "numeric", "popup": {
+            "main": { "code": 62, "label": "<" },
+            "relevant": [
+              { "code":  93, "label": "[" },
+              { "code": 125, "label": "{" }
+            ]
+          }
+        }
+      },
+      "default": {
+        "code": 56, "label": "8", "type": "numeric", "popup": {
+          "main": { "code": 8312, "label": "⁸" }
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": {
+        "$": "layout_direction_selector",
+        "ltr": {
+          "code":   41, "label": ")", "type": "numeric", "popup": {
+            "main": { "code":   62, "label": ">" },
+            "relevant": [
+              { "code":   93, "label": "]" },
+              { "code":  125, "label": "}" }
+            ]
+          }
+        },
+        "rtl": {
+          "code":   40, "label": ")", "type": "numeric", "popup": {
+            "main": { "code":   60, "label": ">" },
+            "relevant": [
+              { "code":   91, "label": "]" },
+              { "code":  123, "label": "}" }
+            ]
+          }
+        }
+      },
+      "default": {
+        "code":   57, "label": "9", "type": "numeric", "popup": {
+          "main": { "code": 8313, "label": "⁹" }
+        }
+      }
+    },
+    { "$": "shift_state_selector",
+      "shiftedManual": { "code": 61, "label": "=", "type": "numeric" },
+      "default": {
+        "code": 48, "label": "0", "type": "numeric", "popup": {
+          "main": { "code": 8304, "label": "⁰" },
+          "relevant": [
+            { "code": 8709, "label": "∅" },
+            { "code": 8319, "label": "ⁿ" }
+          ]
+        }
+      }
+    }
+  ]
+]
